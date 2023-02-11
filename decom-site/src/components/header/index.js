@@ -1,15 +1,11 @@
 import React from 'react';
-import Button from '../button';
+import NavBar from '../navbar/';
 import './style.css';
 
-function onClicou(){
-    console.log("Clicou");
+export default function Header(){
+    return ( 
+        <div>
+            <NavBar /> 
+        </div>
+    );
 }
-
-function NavBar(){
-    return <nav>
-        Decom
-        <Button text="botão" route={onClicou}/>
-    </nav>;
-}
-export default NavBar;

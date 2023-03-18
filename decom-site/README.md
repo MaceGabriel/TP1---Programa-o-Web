@@ -1,19 +1,21 @@
 # Requirements:
 
-#Home Screen:
-    #NavBar:
-        #Buttons
-            #Rotas para demais para páginas
-        #Imagem Decom
-        #Imagem UFOP
-
-    #Conteudo Home:
-        #Noticias
-        #Input Horarios de Atendimento
-            #Rotas para pagionas com horarios e disciplinas?
-        #Barra de Pesquisa (Dependente de tempo extra)
-
     #Footer:
         #Texto Localização UFOP e DECOM
         #Texto Contatos
-        #Links demais sites UFOP
+        #Icones para redes sociais
+        #Links demais sites UFOP(ICEB,UFOP e Graduação)
+    
+    #People:
+        #Cards com modal
+        #Abas para as diferenções seções
+    
+    #About
+        #Transformar o texto em componente
+        #Adicionar demais informações
+    
+    #Navbar:
+        #Concertar
+    
+    #Estilos:
+        #Adicionar cores para o site

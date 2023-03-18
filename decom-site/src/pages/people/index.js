@@ -1,3 +1,4 @@
+import Footer from "../../components/footer";
 import Header from "../../components/header";
 
 export default function People(){
@@ -5,6 +6,7 @@ export default function People(){
         <>
         <Header />
         <h1>People Page</h1>
+        <Footer/>
         </>
     );
 }

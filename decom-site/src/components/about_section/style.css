@@ -1,0 +1,24 @@
+.about-container{
+   margin: 4rem 6rem; 
+   text-align: start;
+}
+
+.about-container h1{
+    padding-bottom: 1rem;
+}
+
+.about-container h2{
+    padding-bottom: 1rem;
+}
+
+.about-container h3{
+    padding-bottom: 1rem;
+}
+
+/* .about-container h4{
+    padding-bottom: 2rem;
+} */
+
+.about-container p{
+    padding-bottom: 2rem;
+}

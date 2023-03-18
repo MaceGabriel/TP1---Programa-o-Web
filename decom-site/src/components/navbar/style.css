@@ -31,10 +31,11 @@
     margin: 0 1rem;
 }
 
-.navigation-menu li a {
+/* .Link esta ficando atras da imagem do cabeçalho */
+.navigation-menu li .link {
     text-decoration: none;
     display: block;
-    width: 100%;
+    width: 100%;   
 }
 
 .hamburger {
@@ -79,10 +80,11 @@
         margin: 0;
     }
 
-    .navigation-menu li a {
+    /* .Link esta ficando atras da imagem do cabeçalho */
+    .navigation-menu li .link {
         color: black;
         width: 100%;
-        padding: 1.5rem 0;
+        padding: 1.5rem 0;       
     }
 
     .navigation-menu li:hover {

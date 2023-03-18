@@ -1,15 +1,16 @@
 import React from 'react';
 import './style.css';
 import { useState } from "react";
+import { Link } from "react-router-dom"
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
         <nav className="navigation">
-            <a href="/" className="brand-name">
+            <Link to="/" className="brand-name">
                 DECOM
-            </a>
+            </Link>
             <button
                 className="hamburger"
                 onClick={() => {
@@ -36,13 +37,13 @@ export default function Navbar() {
             >
                 <ul>
                     <li>
-                        <a href="/home">Home</a>
+                        <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <Link to="/people">People</Link>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>

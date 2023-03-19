@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Modal from '../modal'
 import "./style.css"
 
-let visible = false;
 export default function Card({title, image, body=[]}){
     const [isModalVisible, setIsModVisible] = useState(false);
     return (

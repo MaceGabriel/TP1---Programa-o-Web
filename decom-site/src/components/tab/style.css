@@ -30,11 +30,22 @@
     background-color: lightgray;
 }
 
-.tab-view .content {
-display: flex;
-flex-direction: column;
-justify-content: start;
-align-items: start;
-padding: 1em;
-background-color: lightgrey;
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        align-items: stretch;
+    }
 }

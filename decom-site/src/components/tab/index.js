@@ -13,36 +13,29 @@ export default function Tab({title, tabs = {}}){
 
     return(
         <div className="tab-view">
-
-            {title && <h1 className="title">{title}</h1>}
             <div className="body">
-
-             
-                    <div>
-                        <div className="tabs">
-                            {tabs.map((tab,index) => (
-                                <label
-                                    key={index}
-                                    className={index === activeTabIndex ? "active-tab" : "tab"}
-                                    onClick={()=> activateTab(index)}>
-                                        {tab.name}
-                                </label>
-                            
-                            ))}
-                        </div>
-                        <div className="content">
-                        <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                <div>
+                    <div className="tabs">
+                        {tabs.map((tab,index) => (
+                            <label
+                                key={index}
+                                className={index === activeTabIndex ? "active-tab" : "tab"}
+                                onClick={()=> activateTab(index)}>
+                                    {tab.name}
+                            </label>
+                        
+                        ))}
+                    </div>
+                    <div className="content">
+                        <Grid className='grid' container >
                             {tabs[activeTabIndex].content.map((tabItem) =>(                                    
-                                <Grid item xs={4}>
-                                    <Card title={tabItem.title} image={tabItem.image} body={tabItem.body}/>
+                                <Grid item sx={{maxWidth: 345}} xs={4}>
+                                    <Card classname="card" title={tabItem.title} image={tabItem.image} body={tabItem.body}/>
                                 </Grid>
                             ))}                               
-                        </Grid>    
-                       
-                          
-                        </div>
+                        </Grid>  
                     </div>
-                
+                </div>
             </div>
 
         </div>

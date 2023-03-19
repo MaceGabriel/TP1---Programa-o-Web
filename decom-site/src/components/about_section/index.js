@@ -1,4 +1,3 @@
-import { positions } from '@mui/system';
 import React from 'react';
 import Information from "../information_teacher";
 import "./style.css"

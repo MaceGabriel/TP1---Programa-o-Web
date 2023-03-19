@@ -1,4 +1,3 @@
-import Card from "../../components/card";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 import Tab from "../../components/tab";
@@ -44,7 +43,7 @@ const  employees = [
     {title:"Viviane Michelline Veloso Danese",image:"https://media.istockphoto.com/id/687830554/photo/portrait-of-a-happy-latin-american-teacher-at-the-school.jpg?b=1&s=170667a&w=0&k=20&c=uNKFMoebdWk1fMYsAQicTvDARuMVibx4pskppByrh5Q="}
 ];
 
-const  COCIC = [{title:"Hello"}, {title:"World"}, {title:"!!!!"}];
+const  CACIC = [{title:"Hello"}, {title:"World"}, {title:"!!!!"}];
 
 export default function People(){
     return (
@@ -55,7 +54,7 @@ export default function People(){
             tabs={[
                 {name: "Discentes", content: discents},
                 {name: "Funcionários", content: employees},
-                {name: "COCIC", content: COCIC},
+                {name: "CACIC", content: CACIC},
             ]}
         />
         </div>       

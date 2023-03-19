@@ -1,5 +1,4 @@
 import React from 'react';
-import NavBar from '../navbar/';
 import './style.css';
 
 export default function Information({departamentPosition, nameTeacher, emailTeacher, mandate, secretaryName, emailSecretary, telSecretary}){

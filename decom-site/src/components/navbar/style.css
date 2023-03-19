@@ -52,7 +52,7 @@
     display: none;
 }
 
-.hamburger:hover {
+ul li .link:hover {
     background-color: #2642af;
 }
 

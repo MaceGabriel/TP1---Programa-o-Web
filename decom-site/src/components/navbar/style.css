@@ -5,9 +5,8 @@
     align-items: center;
     position: relative;
     padding: 0.5rem 0rem;
-    background-color: #fff;
+    background-color: transparent;
     color: black;
-    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
 }
 
 .brand-name {
@@ -31,7 +30,6 @@
     margin: 0 1rem;
 }
 
-/* .Link esta ficando atras da imagem do cabeçalho */
 .navigation-menu li .link {
     text-decoration: none;
     display: block;
@@ -61,8 +59,28 @@
 @media screen and (max-width: 768px) {
     .hamburger {
         display: block;
+        z-index: 99;
     }
     
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        align-items: stretch;
+        padding: 0px 0 30px 0;
+        background: transparent;
+        margin: 0;
+        align-content: center;
+        vertical-align: middle;
+    }
+
     .navigation-menu ul {
         position: absolute;
         top: 60px;
@@ -70,9 +88,13 @@
         flex-direction: column;
         width: 100%;
         height: calc(100vh - 77px);
-        background-color: white;
+        background-color: transparent;
         border-top: 1px solid black;
         display: none;
+    }
+
+    .navigation-menu ul:hover {
+        background-color: #0A537C;
     }
 
     .navigation-menu li {
@@ -80,12 +102,17 @@
         margin: 0;
     }
 
-    /* .Link esta ficando atras da imagem do cabeçalho */
     .navigation-menu li .link {
-        color: black;
+        display: block;
         width: 100%;
-        padding: 1.5rem 0;       
+        font-size: 1.2rem;
+        padding: 2rem 0;       
     }
+
+    .navigation-menu li .link:hover {
+        background-color: #0A537C;
+        transition: none;
+    } 
 
     .navigation-menu li:hover {
         background-color: #eee;
@@ -94,4 +121,4 @@
     .navigation-menu.expanded ul {
         display: block;
     }
-}
+} 

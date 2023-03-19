@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <Link to="/" className="brand-name">
-                <img src={logo} alt="LogoDecom"/>
+                <img className="logo" src={logo} alt="LogoDecom"/>
             </Link>
             <button
                 className="hamburger"

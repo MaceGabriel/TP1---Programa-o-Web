@@ -129,7 +129,7 @@ ul li .link:hover {
         display: block;
     }
 
-    img{
+    .navigation .logo{
         display: none;
     }
 } 

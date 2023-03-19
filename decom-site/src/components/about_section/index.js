@@ -20,7 +20,7 @@ export default function AboutSection(){
             infra-estrutura disponível, projetos de pesquisa, consultorias e projetos de de extensão.</p>
 
             {departamentPositions.map((positions) => (
-                <Information departamentPosition={positions.departamentPosition} nameTeacher={positions.nameTeacher} emailTeacher={positions.emailTeacher} mandate={positions.mandate} secretaryName={positions.secretaryName} emailSecretary={positions.emailSecretary} telSecretary={positions.telSecretary}/>
+                <Information key={positions.nameTeacher} departamentPosition={positions.departamentPosition} nameTeacher={positions.nameTeacher} emailTeacher={positions.emailTeacher} mandate={positions.mandate} secretaryName={positions.secretaryName} emailSecretary={positions.emailSecretary} telSecretary={positions.telSecretary}/>
             ))}
 
         </div>

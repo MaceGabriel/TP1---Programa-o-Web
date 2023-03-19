@@ -33,12 +33,12 @@ export default function Card({title, image, body=[]}){
                     <h2>{title}</h2>               
 
                     <p>{body.role}</p>
-                    <p>{body.classroom}</p>
+                    {body.classroom === " " ? null : <p>{body.classroom}</p>}
                     <p>Email: {body.email} | Lattes: {body.lattes}</p>
                     {body.tel === " " ? null : <p>{body.tel}</p> }
                     <p>Área de Interesse:</p>
                     <hr></hr>
-                    <p>{body.areaInterest}</p>
+                    {body.areaInterest === " " ? null : <p>{body.areaInterest}</p>}
                 </Modal>
             ): null}
         </div>

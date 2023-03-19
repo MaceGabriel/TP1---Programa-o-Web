@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import Card from "../card";
+import { Grid } from '@mui/material';
 import './style.css';
 
 export default function Tab({title, tabs = {}}){
@@ -29,12 +31,14 @@ export default function Tab({title, tabs = {}}){
                             ))}
                         </div>
                         <div className="content">
+                        <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                            {tabs[activeTabIndex].content.map((tabItem) =>(                                    
+                                <Grid item xs={4}>
+                                    <Card title={tabItem.title} image={tabItem.image} body={tabItem.body}/>
+                                </Grid>
+                            ))}                               
+                        </Grid>    
                        
-                            {tabs[activeTabIndex].content.map((item) =>(
-                                
-                                 <p>{item}</p> 
-                            ))}
-                        
                           
                         </div>
                     </div>

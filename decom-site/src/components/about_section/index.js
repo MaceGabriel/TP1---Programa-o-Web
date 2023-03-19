@@ -1,5 +1,13 @@
-import React from 'react'
+import { positions } from '@mui/system';
+import React from 'react';
+import Information from "../information_teacher";
 import "./style.css"
+
+const departamentPositions = [
+    {departamentPosition:" Chefia do Departamento", nameTeacher:"Prof. Dr. Carlos Frederico Marcelo da Cunha Cavalcanti", emailTeacher:"chefia.decom@ufop.edu.br", mandate:"até 02 de Janeiro de 2024", secretaryName:"Viviane Michelline Veloso Danese", emailSecretary:"decom@ufop.edu.br", telSecretary:"+55 (31) 3559-1692"},
+    {departamentPosition:"Coordenação de Graduação", nameTeacher:"Prof. Dr. Rodrigo César Pedrosa Silva", emailTeacher:"rodrigo.silva@ufop.edu.br", mandate:"até 16 Agosto de 2023", secretaryName:"Fernando Jose Teixeira de Freitas", emailSecretary:" cocic@ufop.edu.br", telSecretary:"+55 (31) 3559-1312"},
+    {departamentPosition:"Coordenação de Pós-graduação", nameTeacher:"Prof. Dr. Puca Huachi Vaz Penna", emailTeacher:"coordenacao.ppgcc@ufop.edu.br", mandate:"até 10 de Dezembro de 2021", secretaryName:"Mariana Ferreira Lanna", emailSecretary:"secretaria.ppgcc@ufop.edu.br", telSecretary:" +55 (31) 3559-1641"}
+];
 
 export default function AboutSection(){
     return(
@@ -12,32 +20,9 @@ export default function AboutSection(){
             Esta base de informações apresenta diversos dados sobre nosso departamento, tais como o seu quadro de professores e técnicos, relação de alunos, cursos oferecidos, 
             infra-estrutura disponível, projetos de pesquisa, consultorias e projetos de de extensão.</p>
 
-            {/* Depois transfomar isso aqui em um componente */}
-            <h2> Chefia do Departamento </h2>
-            <hr/>
-            <h4>Prof. Dr. Carlos Frederico Marcelo da Cunha Cavalcanti</h4>
-            <br/><br/>
-
-            <h4> Secretaria: </h4>  
-            <h4>Viviane Michelline Veloso Danese</h4>
-            <br/><br/>
-
-            <h2> Coordenação de Graduação </h2>          
-            <hr/>
-            <h4>Prof. Dr. Rodrigo César Pedrosa Silva</h4>
-            <br/><br/>
-
-            <h4> Secretaria: </h4>
-            <h4>Fernando Jose Teixeira de Freitas</h4>
-            <br/><br/>
-
-            <h2> Coordenação de Pós-graduação </h2>
-            <hr/>
-            <h4>Prof. Dr. Puca Huachi Vaz Penna</h4>
-            <br/><br/>
-
-            <h4> Secretaria: </h4>
-            <h4>Mariana Ferreira Lanna</h4>
+            {departamentPositions.map((positions) => (
+                <Information departamentPosition={positions.departamentPosition} nameTeacher={positions.nameTeacher} emailTeacher={positions.emailTeacher} mandate={positions.mandate} secretaryName={positions.secretaryName} emailSecretary={positions.emailSecretary} telSecretary={positions.telSecretary}/>
+            ))}
 
         </div>
 

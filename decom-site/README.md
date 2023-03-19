@@ -7,12 +7,13 @@
         #Links demais sites UFOP(ICEB,UFOP e Graduação)
     
     #People:
-        #Cards com modal
-        #Abas para as diferenções seções
+        #Cards com modal 
+            #Terminar de adicionar as informações e passar elas para o modal
+        #Abas para as diferenções seções (feito)
     
     #About
-        #Transformar o texto em componente
-        #Adicionar demais informações
+        #Transformar o texto em componente (feito)
+        #Adicionar demais informações (feito)
     
     #Navbar:
         #Concertar

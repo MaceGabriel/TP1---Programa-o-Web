@@ -1,10 +1,9 @@
 # Requirements:
 
     #Footer:
-        #Texto Localização UFOP e DECOM
-        #Texto Contatos
-        #Icones para redes sociais
-        #Links demais sites UFOP(ICEB,UFOP e Graduação)
+        #Texto Contatos (feito)
+        #Icones para redes sociais (trabalhoso demais, desisti)
+        #Links demais sites UFOP(ICEB,UFOP e Graduação) (feito)
     
     #People:
         #Cards com modal 

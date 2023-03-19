@@ -3,7 +3,7 @@ import Modal from '../modal'
 import "./style.css"
 
 let visible = false;
-export default function Card({title, image, body}){
+export default function Card({title, image, body=[]}){
     const [isModalVisible, setIsModVisible] = useState(false);
     return (
         <div className="card-container">
@@ -15,8 +15,9 @@ export default function Card({title, image, body}){
                 <div className="card-title">
                     <h3>{title}</h3>
                 </div>
+
                 <div className="card-body">
-                    <p>{body}</p>
+                    <p>{body.role}</p>                    
                 </div>   
             </div>
 
@@ -30,7 +31,15 @@ export default function Card({title, image, body}){
 
             {isModalVisible?(
                 <Modal onClose={()=>setIsModVisible(false)}>
-                    <h2>Modal</h2>
+                    <h2>{title}</h2>               
+
+                    <p>{body.role}</p>
+                    <p>{body.classroom}</p>
+                    <p>Email: {body.email} | Lattes: {body.lattes}</p>
+                    {body.tel === " " ? null : <p>{body.tel}</p> }
+                    <p>Área de Interesse:</p>
+                    <hr></hr>
+                    <p>{body.areaInterest}</p>
                 </Modal>
             ): null}
         </div>

@@ -1,18 +1,18 @@
 # Requirements:
 
     #Footer:
-        #Texto Localização UFOP e DECOM
-        #Texto Contatos
-        #Icones para redes sociais
-        #Links demais sites UFOP(ICEB,UFOP e Graduação)
+        #Texto Contatos (feito)
+        #Icones para redes sociais (trabalhoso demais, desisti)
+        #Links demais sites UFOP(ICEB,UFOP e Graduação) (feito)
     
     #People:
-        #Cards com modal
-        #Abas para as diferenções seções
+        #Cards com modal 
+            #Terminar de adicionar as informações e passar elas para o modal
+        #Abas para as diferenções seções (feito)
     
     #About
-        #Transformar o texto em componente
-        #Adicionar demais informações
+        #Transformar o texto em componente (feito)
+        #Adicionar demais informações (feito)
     
     #Navbar:
         #Concertar

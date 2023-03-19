@@ -1,0 +1,23 @@
+.information h2{
+    padding-bottom: 1rem;
+}
+
+.information
+.information h4{
+    padding-bottom: 0rem;
+}
+
+.information .mandate, .tel-secretaria{
+    padding-bottom: 2rem;
+}
+
+.information .tel-secretaria{
+    padding-bottom: 2rem;
+}
+.information .email{
+    padding-bottom: 0rem;
+}
+
+.information .email-secretaria{
+    padding-bottom: 0rem;
+}

@@ -27,13 +27,18 @@ export default function Tab({title, tabs = {}}){
                         ))}
                     </div>
                     <div className="content">
-                        <Grid className='grid' container >
+                        {/* <Grid className='grid' container >
                             {tabs[activeTabIndex].content.map((tabItem) =>(                                    
                                 <Grid item sx={{maxWidth: 345}} xs={4}>
                                     <Card classname="card" title={tabItem.title} image={tabItem.image} body={tabItem.body}/>
                                 </Grid>
                             ))}                               
-                        </Grid>  
+                        </Grid>   */}
+                    
+                        {tabs[activeTabIndex].content.map((tabItem) =>(     
+                            <Card className="card" title={tabItem.title} image={tabItem.image} body={tabItem.body}/>
+                        ))}                               
+                        
                     </div>
                 </div>
             </div>

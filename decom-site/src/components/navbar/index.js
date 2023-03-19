@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import { useState } from "react";
 import { Link } from "react-router-dom"
-
+import logo from "../../static/imgs/decom.jpeg"
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <nav className="navigation">
             <Link to="/" className="brand-name">
-                DECOM
+                <img src={logo} alt="LogoDecom"/>
             </Link>
             <button
                 className="hamburger"

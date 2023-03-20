@@ -27,7 +27,7 @@
     border-left: 1px solid gray;
     border-top: 1px solid gray;
     border-right: 1px solid gray;
-    background-color: lightgray;
+    background-color:#A7C8E7;
 }
 /* 
 .content {
@@ -40,22 +40,22 @@
 } */
 
 
-.content {
+.content-tab {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
     justify-items: center;   
-    background-color: lightgrey;
+    background-color: #A7C8E7;
 }
 
 @media screen and (max-width: 1100px) {
-    .content {
+    .content-tab {
         grid-template-columns: 1fr 1fr;
     }
 } 
 
 @media screen and (max-width: 725px) {
-    .content {
+    .content-tab {
         grid-template-columns: 1fr;
     }
 } 

@@ -26,7 +26,7 @@ export default function Tab({title, tabs = {}}){
                         
                         ))}
                     </div>
-                    <div className="content">
+                    <div className="content-tab">
                    
                         {tabs[activeTabIndex].content.map((tabItem) =>(     
                             <Card key={tabItem.title} className="card" title={tabItem.title} image={tabItem.image} body={tabItem.body}/>

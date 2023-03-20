@@ -2,11 +2,13 @@
     padding-bottom: 1rem;
 }
 
-.information
 .information h4{
     padding-bottom: 0rem;
 }
 
+.information .secretaria{
+    color: #840413;
+}
 .information .mandate, .tel-secretaria{
     padding-bottom: 2rem;
 }

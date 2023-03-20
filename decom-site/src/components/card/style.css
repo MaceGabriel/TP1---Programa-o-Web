@@ -7,6 +7,7 @@
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: white;
 }
 
 .card-container:hover{
@@ -22,6 +23,7 @@
 .card-content{
     margin: 1rem;
     margin-top: 0.5rem;
+    background-color: white;
 }
 
 h3,p{

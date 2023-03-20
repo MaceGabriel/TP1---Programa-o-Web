@@ -3,7 +3,6 @@ import Header from "../../components/header";
 import Tab from "../../components/tab";
 import React from "react";
 
-// const body =[{cardInfo1:}];
 const  discents = [ 
     {title:"Anderson Almeida Ferreira",image:"https://st2.depositphotos.com/4431055/11856/i/600/depositphotos_118565150-stock-photo-young-male-teacher.jpg",body:{role:"Doutor em Ciência da Computação - Universidade Federal de Minas Gerais", classroom:"Instituto de Ciências Exatas e Biológicas - Sala 340", email:"cfmcc@iceb.ufop.br", lattes:"http://lattes.cnpq.br/7884364909927473", areaInterest:"Teoria da Computação. Bibliotecas Digitais. Bancos de Dados. Gerência de Dados. Recuperação de Informação. Aprendizado de Máquina", tel:" "}}, 
     {title:"Andrea Gomes Campos Bianchi",image:"https://media.istockphoto.com/id/687830554/photo/portrait-of-a-happy-latin-american-teacher-at-the-school.jpg?b=1&s=170667a&w=0&k=20&c=uNKFMoebdWk1fMYsAQicTvDARuMVibx4pskppByrh5Q=",body:{role:"Doutora em Física Computacional - Universidade de São Paulo/São Carlos", classroom:"Instituto de Ciências Exatas e Biológicas - Sala 64", email:"andrea@iceb.ufop.br", lattes:"http://lattes.cnpq.br/0251364589832974", areaInterest:"Visão Computacional. Análise e processamento de imagens. Simulação computacional. Reconhecimento de padrões.", tel:"+55 (31) 3559 1640"}},
@@ -39,11 +38,11 @@ const  discents = [
 ];
 
 const  employees = [
-    {title:"Cristiano Amaro da Matta",image:"https://st2.depositphotos.com/4431055/11856/i/600/depositphotos_118565150-stock-photo-young-male-teacher.jpg"},
-    {title:"Viviane Michelline Veloso Danese",image:"https://media.istockphoto.com/id/687830554/photo/portrait-of-a-happy-latin-american-teacher-at-the-school.jpg?b=1&s=170667a&w=0&k=20&c=uNKFMoebdWk1fMYsAQicTvDARuMVibx4pskppByrh5Q="}
+    {title:"Cristiano Amaro da Matta",image:"https://st2.depositphotos.com/4431055/11856/i/600/depositphotos_118565150-stock-photo-young-male-teacher.jpg", body:{role:"Técnico de Laboratório - Informática", classroom:"Instituto de Ciências Exatas e Biológicas - Sala COM 24 - ICEB I ",email:"decom@iceb.ufop.br",lattes:" ", areaInterest:" ", tel:"+55 (31) 3559-1692"}},
+    {title:"Viviane Michelline Veloso Danese",image:"https://media.istockphoto.com/id/687830554/photo/portrait-of-a-happy-latin-american-teacher-at-the-school.jpg?b=1&s=170667a&w=0&k=20&c=uNKFMoebdWk1fMYsAQicTvDARuMVibx4pskppByrh5Q=",body:{role:"Secretária Executiva - DECOM", classroom:"Instituto de Ciências Exatas e Biológicas - Sala COM 24 - ICEB I",email:"decom@iceb.ufop.br",lattes:" ", areaInterest:" ", tel:"+55 (31) 3559-1692"}}
 ];
 
-const  CACIC = [{title:"Hello"}, {title:"World"}, {title:"!!!!"}];
+const  CACIC = [{title:"CACIC", image: "https://cacic.decom.ufop.br/sites/default/files/cacic/files/icone_0.png?m=1525724393", body:{role:"Centro Acadêmico Ciência da Computação_UFOP", classroom:"Instituto de Ciências Exatas e Biológicas - ICEB I ", email: "cacic.decom@gmail.com", lattes:" ", areaInterest:" ", tel:" "}}];
 
 export default function People(){
     return (

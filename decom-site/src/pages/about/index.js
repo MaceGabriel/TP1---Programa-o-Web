@@ -5,7 +5,7 @@ import Hero from "../../components/hero";
 
 export default function About(){
     return (
-        <>
+        <div className="about">
         <Header />
         <Hero 
             cName="hero-mid"
@@ -19,6 +19,6 @@ export default function About(){
             infra-estrutura disponível, projetos de pesquisa, consultorias e projetos de de extensão.</p> */}
         <AboutSection/>
         <Footer/>
-        </>
+        </div>
     );
 }

@@ -19,7 +19,12 @@ export default function Footer(){
                
                 <div>
                     <h4>Telefone: +55 31 3559-1692</h4>
-                   <h4>Email: decom@ufop.edu.br</h4>
+                    <h4>
+                        Email: 
+                        <a nameClass="link-contact" href=" decom@ufop.edu.br">
+                            decom@ufop.edu.br
+                        </a>
+                    </h4>
                    <br></br>  
                 </div>
 
@@ -30,7 +35,13 @@ export default function Footer(){
                 </div>
                
                 <div>
-                    <h4>Link: https://ufop.br/telefones-e-enderecos</h4> 
+                    <h4>
+                        Link: 
+                        <a nameClass="link-contact" href="https://ufop.br/telefones-e-enderecos">
+                            https://ufop.br/telefones-e-enderecos
+                        </a>
+                    </h4>
+
                     <br></br>                  
                 </div>
 
@@ -40,10 +51,18 @@ export default function Footer(){
                     
                 </div>
                
+                              
                 <div>
-                    <h4>Link: https://iceb.ufop.br/contatos</h4>  
-                    <br></br>                   
+                    <h4>
+                        Link: 
+                        <a nameClass="link-contact" href=" https://iceb.ufop.br/contatos">
+                            https://iceb.ufop.br/contatos
+                        </a>
+                    </h4>
+                    
+                    <br></br>                  
                 </div>
+
             
 
             </div>

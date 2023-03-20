@@ -21,7 +21,7 @@ export default function Footer(){
                     <h4>Telefone: +55 31 3559-1692</h4>
                     <h4>
                         Email: 
-                        <a nameClass="link-contact" href=" decom@ufop.edu.br">
+                        <a nameClass="link-contact" href="mailto:decom@ufop.edu.br">
                             decom@ufop.edu.br
                         </a>
                     </h4>
@@ -55,7 +55,7 @@ export default function Footer(){
                 <div>
                     <h4>
                         Link: 
-                        <a nameClass="link-contact" href=" https://iceb.ufop.br/contatos">
+                        <a nameClass="link-contact" href="https://iceb.ufop.br/contatos">
                             https://iceb.ufop.br/contatos
                         </a>
                     </h4>

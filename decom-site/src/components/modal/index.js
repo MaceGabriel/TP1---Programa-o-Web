@@ -5,7 +5,7 @@ export default function Modal({id = "modal", onClose = ()=>{}, children}){
 
     const handleOutsideClick = (e) => {
         if(e.target.id === id){
-            onClose();
+            onClose();           
         }
     }
     return(

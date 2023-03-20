@@ -7,12 +7,12 @@ export default function Information({departamentPosition, nameTeacher, emailTeac
             <h2> {departamentPosition} </h2>
             <hr/>
             <h4>{nameTeacher}</h4>
-            <p className="email">Email: {emailTeacher}</p>            
+            <p className="email">Email: <a href={"mailto"+emailTeacher}>{emailTeacher}</a></p>            
             <p className="mandate">Mandato: {mandate}</p>
 
             <h4 className="secretaria"> Secretaria: </h4>  
             <h4>{secretaryName}</h4>
-            <p className="email-secretaria">E-mail: {emailSecretary}</p>            
+            <p className="email-secretaria">E-mail: <a href={"mailto"+emailSecretary}>{emailSecretary}</a></p>            
             <p className="tel-secretaria">Tel: {telSecretary}</p>
             
         </div> 

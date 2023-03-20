@@ -12,6 +12,7 @@
 .footer a{
     color:black;
     text-transform: lowercase;
+    text-decoration: none;
 }
 
 

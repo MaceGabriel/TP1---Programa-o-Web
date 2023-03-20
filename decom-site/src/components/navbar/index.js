@@ -38,13 +38,13 @@ export default function Navbar() {
             >
                 <ul>
                     <li>
-                        <Link className='link' to="/">Home</Link>
+                        <Link className='link' to="/">Inicio</Link>
                     </li>
                     <li>
-                        <Link className='link' to="/people">People</Link>
+                        <Link className='link' to="/people">Pessoas</Link>
                     </li>
                     <li>
-                        <Link className='link' to="/about">About</Link>
+                        <Link className='link' to="/about">Sobre</Link>
                     </li>
                 </ul>
             </div>

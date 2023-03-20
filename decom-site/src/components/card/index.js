@@ -29,12 +29,13 @@ export default function Card({title, image, body=[]}){
             </div>
 
             {isModalVisible?(
+                
                 <Modal onClose={()=>setIsModVisible(false)}>
                     <h2>{title}</h2>               
 
                     <p>{body.role}</p>
                     {body.classroom === " " ? null : <p>{body.classroom}</p>}
-                    <p>Email: {body.email} | Lattes: {body.lattes}</p>
+                    <p>Email: <a href={"emailto:"+ body.email} >{body.email} </a>| Lattes: <a href={body.lattes}> Acesse </a></p>
                     {body.tel === " " ? null : <p>{body.tel}</p> }
                     <p>Área de Interesse:</p>
                     <hr></hr>
